@@ -1,0 +1,11 @@
+{
+    "name": "eduardo5g/editorhtml",
+    "description": "Um editor HTML online",
+    "authors": [
+        {
+            "name": "eduardo5g",
+            "email": "localsoft@hotmail.com"
+        }
+    ],
+    "require": {}
+}
