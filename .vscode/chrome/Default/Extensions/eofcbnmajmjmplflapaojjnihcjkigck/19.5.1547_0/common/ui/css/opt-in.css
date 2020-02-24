@@ -1,0 +1,84 @@
+body {
+  background-color: #1b1a21;
+  font-family: "Roboto", sans-serif;
+}
+.opt-in-container {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto max-content auto;
+  grid-template-columns: auto 356px auto;
+}
+.opt-in-container .opt-in-box {
+  box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.5);
+  border: solid 1px #919191;
+  grid-row: 2;
+  grid-column: 2;
+  height: max-content;
+  width: 356px;
+  background-color: white;
+  color: #242424;
+  display: grid;
+  grid-template-rows: 56px minmax(156px, max-content) 44px;
+}
+.opt-in-container .opt-in-box .opt-in-box-header {
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 18px 62px auto;
+  grid-template-rows: 24px 20px 12px;
+}
+.opt-in-container .opt-in-box .opt-in-box-header img {
+  width: 62px;
+  height: 20px;
+  grid-column: 2;
+  grid-row: 2;
+}
+.opt-in-container .opt-in-box .opt-in-box-notice {
+  grid-row: 2;
+  color: #242424;
+  text-align: center;
+}
+.opt-in-container .opt-in-box .opt-in-box-notice .opt-in-box-notice-text {
+  font-size: 16px;
+  font-weight: 500;
+}
+.opt-in-container .opt-in-box .opt-in-box-notice .opt-in-box-notice-policy {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: normal;
+}
+.opt-in-container .opt-in-box .opt-in-box-notice .opt-in-box-notice-policy ul {
+  text-align: left;
+}
+.opt-in-container .opt-in-box .opt-in-box-notice .opt-in-box-notice-policy a {
+  display: inline;
+  color: #242424;
+}
+.opt-in-container .opt-in-box .opt-in-box-buttons {
+  display: grid;
+  grid-template-columns: 178px 178px;
+  grid-row: 3;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 500;
+  color: #242424;
+  background-color: #ededed;
+  border-radius: 4px;
+}
+.opt-in-container .opt-in-box .opt-in-box-buttons .opt-in-box-buttons-accept,
+.opt-in-container .opt-in-box .opt-in-box-buttons .opt-in-box-buttons-decline {
+  text-align: center;
+  height: 100%;
+  line-height: 44px;
+}
+.opt-in-container .opt-in-box .opt-in-box-buttons .opt-in-box-buttons-accept:hover,
+.opt-in-container .opt-in-box .opt-in-box-buttons .opt-in-box-buttons-decline:hover {
+  background-color: #005de7;
+  color: #ffffff;
+  cursor: pointer;
+}
+.opt-in-container .opt-in-box .opt-in-box-buttons .opt-in-box-buttons-accept {
+  grid-column: 1;
+}
+.opt-in-container .opt-in-box .opt-in-box-buttons .opt-in-box-buttons-decline {
+  grid-column: 2;
+}
